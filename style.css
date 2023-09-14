@@ -1,0 +1,310 @@
+html{
+    scroll-behavior: smooth;
+}
+.header-back{
+    background-color: black;
+   
+}
+
+
+.Welcome-text{
+    font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Monoton', cursive;
+font-family: 'Space Mono', monospace;
+font-family: 'Zen Dots', cursive;
+
+ display: inline-block;
+ width: auto;
+ padding-top: 200px;
+ color: white;
+
+}
+.Text h1{
+    font-size: 64px;
+}
+
+.define{
+    font-family: 'Open Sans';
+    display: inline-block;
+    letter-spacing: 18px;
+    padding-bottom: 2px;
+    color: #FFC107;
+    
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imge{
+    float: left;
+    padding-left: 70px;
+}
+
+.imge:hover{
+    transform: scale(1.2);
+}
+
+.yellow{
+    color: #FFC107;
+
+}
+.intro{
+    color: white;
+    line-height: 34px;
+    padding-top: 3px;
+
+}
+
+.HomePage{
+    background-color: #000000;
+    padding-left: 30px;
+}
+
+#About{
+    background: rgba(27, 26, 25, 0.846);
+}
+.Aboutme h2{
+    padding-left: 150px;
+    padding-top: 10px;
+    clear: left;
+    color:#FFF;
+font-family: 'Libre Baskerville', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.Aboutme p{
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    margin-right: 100px;
+    margin-bottom: 0%;
+    padding-bottom: 50px;
+    clear: left;
+    color:#FFF;
+    font-family: 'League Spartan', sans-serif;
+font-size: 25px;
+font-style: normal;
+line-height: normal;
+}
+
+.Eduback{
+    background-color: black;
+}
+
+.Edu h2{
+    padding-left: 150px;
+    padding-top: 50px;
+    clear: left;
+    color:#FFF;
+font-family: 'Libre Baskerville', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.containers{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 150px;
+    gap: 100px;
+}
+
+.box{
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.box:hover{
+    transform: scale(1.02);
+}
+img:hover{
+    transform: scale(1.02);
+}
+.first{
+    
+    width: 600px;
+    height: 400px;
+    background-color:#FFC107;
+    border-radius: 32px;
+  }
+
+.first>h2{
+    color: #000;
+font-family: 'League Spartan',sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: bold;
+padding-bottom: 10px;
+}
+
+.first>p{
+    color: #000;
+    font-family: 'League Spartan',sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+.first>h3{
+    color: #FFF;
+font-family: 'League Spartan';
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 50px;
+}
+
+.second{
+    width: 600px;
+    height: 400px;
+    background-color:#FFF;
+    border-radius: 32px;
+
+}
+
+.second>h2{
+    color: #000;
+font-family: 'League Spartan',sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: bold;
+padding-bottom: 10px;
+padding-bottom: 40px;
+}
+
+
+.second>h3{
+    color: #FFC107;
+font-family: 'League Spartan';
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 80px;
+}
+
+#projects{
+    background-color: #000;
+}
+.featurette-heading{
+    color: #FFF;
+}
+.lead{
+    color: #FFFFFF80;
+}
+.projcon{
+    
+    padding-top: 93px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+    color: #FFF;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.design{
+    padding-right: 450px;
+    
+
+}
+
+.descon{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 100px;
+    border-radius: 100%;
+    gap: 0.5;
+}
+
+
+
+
+
+
+
+
+.conback{
+    background-color: #000;
+    
+}
+
+.Contact{
+    text-align: center;
+    color: #FFF;
+    font-family: 'Caveat', cursive;
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+.conhead h2{
+    padding-left: 150px;
+    padding-top: 20px;
+    clear: left;
+    color:#FFF;
+font-family: 'Libre Baskerville', serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.conhead p{
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 0%;
+    margin-right: 100px;
+    margin-bottom: 0%;
+    padding-bottom: 50px;
+    clear: left;
+    color:#FFF;
+    font-family: 'League Spartan', sans-serif;
+font-size: 25px;
+font-style: normal;
+line-height: normal;
+}
+
+.left{
+    padding-left: 150px;
+}
+.left>p{
+    color: white;
+    font-size: 40px;
+    font-family: 'League Spartan', sans-serif;
+    padding-top: 30px;
+
+}
+.links p{
+    color: #FFF;
+    padding-bottom: 50px;
+}
+
+.linked{
+    float:left;
+    padding-right: 30px;
+    padding-bottom: 1;
+}
+.left>h3{
+    color: #FFFFFF80;
+}
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+
+.hidden{
+    opacity: 0;
+    transition: all 1s ;
+}
+.show{
+    opacity: 1;
+}
